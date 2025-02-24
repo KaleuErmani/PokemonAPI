@@ -1,50 +1,58 @@
-# React + TypeScript + Vite
+# 📌 Pokédex
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma Pokédex interativa que permite buscar e visualizar detalhes sobre diferentes Pokémons, utilizando a PokéAPI para fornecer informações em tempo real.
 
-Currently, two official plugins are available:
+![Pokedex Preview](https://github.com/KaleuErmani/PokemonAPI/raw/main/src/assets/PokedexPreview.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias utilizadas
 
-## Expanding the ESLint configuration
+- **React** com Vite
+- **TypeScript**
+- **Redux Toolkit** para gerenciamento de estado
+- **Styled Components** para estilização
+- **React Router Dom** para navegação
+- **PokéAPI** como fonte de dados
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 📦 Instalação e uso
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+### 1️⃣ Clonar o repositório
+```bash
+  git clone https://github.com/KaleuErmani/PokemonAPI
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+### 2️⃣ Instalar as dependências
+```bash
+  npm install  # ou yarn install
 ```
+
+### 3️⃣ Rodar o projeto
+```bash
+  npm run dev  # ou yarn dev
+```
+
+🔗 **Acesse a Pokédex online:** [Pokédex no Render]([https://SEU-LINK-NO-RENDER.com](https://pokedex-fqzs.onrender.com))
+
+O projeto será iniciado em `http://localhost:5173`.
+
+## 🔥 Funcionalidades
+
+- 🔎 Buscar Pokémons pelo nome
+- 📜 Exibir detalhes como nome, tipo e habilidades
+- ⚡ Carregamento dinâmico de dados
+
+## 📁 Estrutura do projeto
+
+```
+/src
+  ├── components/        # Componentes reutilizáveis
+  ├── pages/             # Páginas principais
+  ├── store/             # Redux Toolkit (slices e store)
+  ├── styles/            # Estilização global e temas
+  ├── App.tsx            # Componente principal
+  ├── main.tsx           # Ponto de entrada do app
+```
+
+## 📜 Licença
+
+Este projeto é de uso livre para estudos e melhorias! 🚀
+
