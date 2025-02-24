@@ -4,6 +4,8 @@ Uma Pokédex interativa que permite buscar e visualizar detalhes sobre diferente
 
 ![Pokedex Preview](https://github.com/KaleuErmani/PokemonAPI/raw/main/src/assets/PokedexPreview.png)
 
+🔗 **Acesse a Pokédex online:** [Pokédex no Render](https://pokedex-fqzs.onrender.com)
+
 ## 🚀 Tecnologias utilizadas
 
 - **React** com Vite
@@ -29,8 +31,6 @@ Uma Pokédex interativa que permite buscar e visualizar detalhes sobre diferente
 ```bash
   npm run dev  # ou yarn dev
 ```
-
-🔗 **Acesse a Pokédex online:** [Pokédex no Render]([https://SEU-LINK-NO-RENDER.com](https://pokedex-fqzs.onrender.com))
 
 O projeto será iniciado em `http://localhost:5173`.
 
