@@ -9,6 +9,6 @@ export default defineConfig({
     port: 10000,
   },
   preview: {
-    allowedHosts: ["pokedex-fqzs.onrender.com", "localhost"], // Adiciona o host do Render
+    allowedHosts: ["pokedex-fqzs.onrender.com", "localhost"],
   },
 });
